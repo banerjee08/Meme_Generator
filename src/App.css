@@ -38,12 +38,12 @@
   /* border: 1px red solid; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr) auto;
+  grid-template-rows: repeat(3, 1fr);
   gap: 0 45px;
 }
 
-.btn{
-  grid-column: span 2;
+.getImg-btn,
+.reset-btn{
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   border: none;
   cursor: pointer;
